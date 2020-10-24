@@ -1,0 +1,32 @@
+.gallery__link:nth-of-type(1), .gallery__link:nth-of-type(11n) {
+  grid-row: span 1;
+  grid-column: span 2;
+}
+.gallery__link:nth-of-type(2), .gallery__link:nth-of-type(12n) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.gallery__link:nth-of-type(4), .gallery__link:nth-of-type(14n) {
+  grid-row: span 2;
+}
+.gallery__link:nth-of-type(5), .gallery__link:nth-of-type(15n) {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+.gallery__link:nth-of-type(7), .gallery__link:nth-of-type(17n) {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+.gallery__link:nth-of-type(8), .gallery__link:nth-of-type(18n) {
+  grid-row: span 2;
+}
+.gallery__link:nth-of-type(9), .gallery__link:nth-of-type(19n) {
+  grid-row: span 2;
+}
+
+@media screen and (max-width: 550px) {
+    .gallery__link:nth-of-type(1n) {
+      grid-row: auto;
+      grid-column: 1 / -1;
+    }
+  }
