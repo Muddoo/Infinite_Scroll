@@ -3,7 +3,7 @@
 ### Overview
 * Intro
 
-### [Click To View](https://muddoo.github.io/web_project_4/)
+### [Click To View](https://muddoo.github.io/web_project_4/){:target="_blank"}
 
 **Intro**
 
